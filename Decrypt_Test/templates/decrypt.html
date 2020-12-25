@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>解密亿赛通文件</title>
+</head>
+<body>
+<h4>文件上传</h4>
+<form action="/decrypt/" enctype="multipart/form-data" method="post">
+    {% csrf_token %}
+    上传文件：<br>
+    <input type="file" name="pic"> <br>
+    <input type="submit" value="上传并解密">
+</form>
+
+</body>
+</html>
