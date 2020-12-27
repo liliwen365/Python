@@ -8,6 +8,8 @@
 2. 安装Django第三方包
  
 ![亿赛通加密图片](Excel_decrypt.png)   ![解密后图片](Excel_normal.png)
+[亿赛通加密图片](https://github.com/liliwen365/Python/blob/main/Image/Excel_decrypt.png) [解密后图片](https://github.com/liliwen365/Python/blob/main/Image/Excel_normal.png)
+
 
 ## 解密步骤
 ### 一、github下载源码到本地，并解压。
