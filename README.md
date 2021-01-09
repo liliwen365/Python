@@ -7,7 +7,9 @@
 1. 安装好python安装包
 2. 安装Django第三方包
  
-![亿赛通加密图片](Excel_decrypt.png)   ![解密后图片](Excel_normal.png)
+
+![亿赛通加密图片](./Image/Excel_decrypt.png) ![解密后图片](./Image/Excel_normal.png)
+
 
 ## 解密步骤
 ### 一、github下载源码到本地，并解压。
@@ -17,7 +19,7 @@
 ### 三、浏览器进入网址：http://127.0.0.1:8000/decrypt
 浏览器输入网址后，如下图：选择需要解密的文件，点击上传并解密。解密后的文件默认存放在"E:\"根目录下。
 	
- ![解密后图片](html_pic.png)
+ ![解密后图片](./Image/html_pic.png)
 
 ## 解密操作视频地址
 
@@ -25,6 +27,10 @@
 ## 关注公众号
 欢迎大家关注公众号：Python利剑，公众号文章里面为大家详细介绍解密原理。
 
+<<<<<<< HEAD
 ![公众号图片](QR_code.png)
+=======
+![公众号图片](./Image/QR_code.jpg)
+>>>>>>> e51e3a1033bc6cc52a71280a9b23c77ae558c8ec
 
 
