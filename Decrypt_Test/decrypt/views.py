@@ -13,7 +13,7 @@ def decrypt(request):
             
             #pic = request.FILES["pic"]
             # 创建一个文件
-            save_path = "C:/123/%s" % obj.name
+            save_path = "C:/%s" % obj.name
             with open(save_path, "wb") as f:
                 # 获取上传文件的内容并写入打开的文件
                 for content in obj.chunks():
