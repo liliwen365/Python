@@ -9,7 +9,7 @@
 <form action="/decrypt/" enctype="multipart/form-data" method="post">
     {% csrf_token %}
     上传文件：<br>
-    <input type="file" name="pic"> <br>
+    <input type="file" name="pic" multiple="multiple"> <br>
     <input type="submit" value="上传并解密">
 </form>
 
