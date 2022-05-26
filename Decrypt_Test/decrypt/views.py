@@ -6,6 +6,7 @@ def decrypt(request):
         return render(request, "decrypt.html")
     else:
         # 获取文件
+        addr = request.POST.get('title')
         pic = request.FILES.getlist("pic")
         for obj in pic:
             print('filename:',obj.name)
@@ -13,7 +14,7 @@ def decrypt(request):
             
             #pic = request.FILES["pic"]
             # 创建一个文件
-            save_path = "D:/%s" % obj.name
+            save_path = "%s/%s" % (addr,obj.name)
             with open(save_path, "wb") as f:
                 # 获取上传文件的内容并写入打开的文件
                 for content in obj.chunks():
