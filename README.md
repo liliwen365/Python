@@ -7,7 +7,7 @@
 1. 安装好python安装包
    安装方法：https://www.python.org/ 官网下载exe文件，双击安装（注意python需要加入环境变量，具体方法可参考：https://mp.weixin.qq.com/s/99f1W0iS4BtdekaBpUaA_Q）	
 2. 安装Django第三方包
-   运行里搜索cmd,在弹出的黑框中输入pip insall Django
+   运行里搜索cmd,在弹出的黑框中输入pip install Django
  
 
 ![亿赛通加密图片](./Image/Excel_decrypt.png) ![解密后图片](./Image/Excel_normal.png)
